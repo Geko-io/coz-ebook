@@ -17,6 +17,7 @@ module.exports = function ServerHttp( host, port )
 
 	this.run = function()
 	{
+		this.app.use("/public", this.express.static(__dirname + '/../public'));
 		this.helpers.useMustacheRender( this.app, this.express );
 		this.loadRoute();
 		this.server = this.http.createServer( this.app ).listen( this.port, this.host, this.startMessage );
