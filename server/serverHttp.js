@@ -2,7 +2,6 @@
 ** Main server class for create http server listening host:port
 ** and create routes using Routes class
 */
-
 module.exports = ServerHttp;
 
 // PRIVATE STATIC
@@ -29,6 +28,7 @@ function ServerHttp( host, port )
 	// PUBLIC METHODS
 	this.run = function()
 	{
+		_app.use("/public", Express.static(__dirname + '/../public'));
 		_helpers.useMustacheRender( _app );
 		loadRoutes();
 		loadModels();

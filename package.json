@@ -5,6 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.13.3",
+    "cozydb": "^0.1.1",
     "express": "~4.13.3",
     "mustache-express": "^1.2.1",
     "sqlite3": "^3.0.8"

@@ -1,0 +1,43 @@
+#list_book
+{
+	padding-left: 20em;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+#list_book h1
+{
+	text-transform: uppercase;
+	margin: 0px;
+	padding-top: 1em;
+	color: #585252;
+}
+
+#book_feed
+{
+	margin-top: 3em;
+}
+
+#book_feed .book
+{
+	max-width: 11em;
+	float: left;
+	margin: 2em;
+}
+
+#book_feed .book .author
+{
+	color: #505050;
+}
+
+#book_feed .book .title
+{
+	color: #333;
+}
+
+#book_feed .book img
+{
+	max-height: 14em;
+	max-width: 10.5em;
+	margin-left: 0.25em;
+}
+

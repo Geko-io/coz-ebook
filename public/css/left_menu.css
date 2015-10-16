@@ -1,0 +1,129 @@
+header
+{
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+#left_menu
+{
+	background-color: #333;
+	position: fixed;
+	left: 0;
+	height: 100%;
+	width: 15em;
+}
+
+#main_link_nav
+{
+	color: #E9F0F4;
+}
+
+#main_link_nav li
+{
+	list-style-type: none;
+	list-style-position: inside;
+	cursor: pointer;
+	padding: 0.8em 0 0.8em .8em;
+	background-color: none;
+	transition: background-color .2s;
+	text-transform: capitalize;
+}
+
+#main_link_nav li:hover
+{
+	background-color: #2a2a2a;
+}
+
+#left_menu hr
+{
+	height: 1px;
+	border: 0px none;
+	background-color: #2A2A2A;
+	width: 70%;
+	margin-top: 3em;
+}
+
+#tag_title
+{
+	color: #E9F0F4;
+	opacity: 0.4;
+	text-align: center;
+	font-style: italic;
+}
+
+#tag_list li
+{
+	color: #E9F0F4;
+	list-style-type: none;
+	list-style-position: inside;
+	cursor: pointer;
+	padding: 0.4em 0 0.4em .8em;
+	text-transform: capitalize;
+}
+
+#upload_button .button
+{
+	background-color: #4e9cc5;
+	border-radius: .4em;
+	outline: none;
+	padding: .4em 1em .4em .5em;
+	color: #E9F0F4;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#upload_button
+{
+	text-align: center;
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
+}
+
+#upload_button img
+{
+	width: 1em;
+	padding: 0em .5em;
+	position: relative;
+	top: .1em;
+}
+
+#now_reading:before {
+	background-image: url("/public/img/bookmarks.svg");
+	height: 1.5em;
+	width: 1.5em;
+	font-size: 1em;
+	display: inline-block;
+	content: "";
+	background-size: 1.5em 1.5em;
+	background-repeat: no-repeat;
+	padding-right: 1em;
+	position: relative;
+	top: .4em;
+}
+
+#my_library:before {
+	background-image: url("/public/img/books.svg");
+	height: 1.5em;
+	width: 1.5em;
+	font-size: 1em;
+	display: inline-block;
+	content: "";
+	background-size: 1.5em 1.5em;
+	background-repeat: no-repeat;
+	padding-right: 1em;
+	position: relative;
+	top: .4em;
+}
+
+#loved:before {
+	background-image: url("/public/img/heart.svg");
+	height: 1.5em;
+	width: 1.5em;
+	font-size: 1em;
+	display: inline-block;
+	content: "";
+	background-size: 1.5em 1.5em;
+	background-repeat: no-repeat;
+	padding-right: 1em;
+	position: relative;
+	top: .4em;
+}
