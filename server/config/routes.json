@@ -1,0 +1,8 @@
+{
+	"/" : {
+			"controller" : "home",
+			"request" : {
+						"get" : "index"
+					}
+		}
+}
